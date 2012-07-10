@@ -1,0 +1,20 @@
+<head>
+  <title>CometHop</title>
+  <script src="/client/three/Three.js"></script>
+  <script src="/client/three/Detector.js"></script>
+  <script src="/client/three/Stats.js"></script>
+</head>
+
+<body>
+  <div id="viewport"></div>
+  {{> spaceship}}
+</body>
+ 
+<template name="spaceship">
+
+  <div id="viewport"></div>
+
+  <div class="ship" id="player-1">
+    {{spaceship}}
+  </div>
+</template>

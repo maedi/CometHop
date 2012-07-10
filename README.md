@@ -1,0 +1,1 @@
+A 3D top-down space strategy game written in WebGL (Three.js) and Node (Meteor).
